@@ -55,7 +55,6 @@ export default {
         .catch(error => {
           var responseText = error.request.responseText;
           console.error('Login failed:', responseText);
-          // window.alert('Login failed:\n\n' + responseText);
         });
     },
   },
