@@ -182,3 +182,13 @@
   transform: translate(-265%, 0);
   background: #fff;
 }
+
+.name {
+  font-size: 35px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
